@@ -281,3 +281,13 @@ form .btn { width: 100%; }
 }
 
 .codebox a { color: var(--accent); }
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  padding: 16px;
+  border-top: 1px solid var(--border);
+}
+
+footer a { color: var(--muted); }
