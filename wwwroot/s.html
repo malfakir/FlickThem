@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlickThem &middot; Upload</title>
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="topbar"><h1>FlickThem</h1></header>
+<main>
+  <section class="card" id="intro">
+    <h2 id="share-title">Drop your photos here.</h2>
+    <p class="muted">Drag and drop or browse to upload straight into the share.</p>
+    <p id="share-error" class="error hidden"></p>
+  </section>
+
+  <div id="drop" class="dropzone">
+    <p class="drop-title">Drag &amp; drop photos here</p>
+    <p class="muted">or</p>
+    <button class="btn primary" type="button" id="browse-btn">Browse photos</button>
+    <input type="file" id="file" multiple accept="image/*" hidden>
+  </div>
+
+  <section id="queue" class="card hidden">
+    <h2>Ready to upload</h2>
+    <ul id="file-list" class="file-list"></ul>
+    <button class="btn primary" type="button" id="upload-btn">Upload all</button>
+  </section>
+
+  <section id="done" class="card hidden">
+    <h2>All done!</h2>
+    <p>Your photos are safely uploaded. Thanks!</p>
+    <p><a id="gallery-link" href="#">View what was uploaded</a> &middot; <button class="btn link" type="button" id="again">Upload more</button></p>
+  </section>
+</main>
+
+<script src="/js/upload.js"></script>
+</body>
+</html>

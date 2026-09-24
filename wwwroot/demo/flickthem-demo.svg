@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="200" cy="150" r="46" fill="#fbbf24" opacity="0.9"/>
+  <path fill="#ffffff" d="M120 165h30l12-16h76l12 16h30a16 16 0 0 1 16 16v100a16 16 0 0 1-16 16H120a16 16 0 0 1-16-16V181a16 16 0 0 1 16-16z" opacity="0.95"/>
+  <circle cx="200" cy="231" r="34" fill="#7c3aed"/>
+  <circle cx="200" cy="231" r="14" fill="#ffffff"/>
+  <text x="200" y="345" fill="#ffffff" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="600" text-anchor="middle" letter-spacing="0.5">flickthem-demo</text>
+</svg>
