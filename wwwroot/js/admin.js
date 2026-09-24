@@ -96,10 +96,13 @@ function render() {
     actions.className = "share-actions";
 
     const qrBtn = button("QR", () => showQr(s), "btn ghost");
+    const galleryBtn = button("Gallery", () => {
+      window.open(s.galleryUrl, "_blank", "noopener");
+    }, "btn ghost");
     const copyBtn = button("Copy link", () => copyText(s.uploadUrl), "btn ghost");
     const delBtn = button("Delete", () => deleteShare(s), "btn danger");
 
-    actions.append(qrBtn, copyBtn, delBtn);
+    actions.append(qrBtn, galleryBtn, copyBtn, delBtn);
     li.append(grow, actions);
     list.appendChild(li);
   }
